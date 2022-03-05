@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const config = require('config');
 const authRouter = require('./routes/auth.routes');
 
-const PORT = process.env.PORT || 5050;
+const PORT = process.env.PORT || 5000;
 
 const app = express();
 
